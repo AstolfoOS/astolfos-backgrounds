@@ -2,7 +2,7 @@
 
 This repo contains backgrounds included with AstolfOS
 
-# License
+## License
 
 Images are property of their creators:
 

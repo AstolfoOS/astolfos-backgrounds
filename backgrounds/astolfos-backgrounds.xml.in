@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>1</name>
+    <filename>@BACKGROUNDDIR@/astolfo-1.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+
+  <wallpaper deleted="false">
+    <name>2</name>
+    <filename>@BACKGROUNDDIR@/astolfo-2.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+
+  <wallpaper deleted="false">
+    <name>3</name>
+    <filename>@BACKGROUNDDIR@/astolfo-3.jpg</filename>
+    <options>zoom</options>
+    <pcolor>#ffffff</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>

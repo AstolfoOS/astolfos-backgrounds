@@ -5,3 +5,13 @@ backgrounds = [
 ]
 
 install_data(backgrounds, install_dir: backgrounddir)
+
+configure_file(
+  input: 'astolfos-backgrounds.xml.in',
+  output: 'astolfos-backgrounds.xml',
+  configuration: {
+    'BACKGROUNDDIR': backgrounddir,
+  },
+  install: true,
+  install_dir: gnome_metadatadir
+)

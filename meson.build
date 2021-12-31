@@ -1,0 +1,13 @@
+project('astolfos-backgrounds',
+  version: '1.0',
+  meson_version: '>= 0.41.0'
+)
+
+i18n = import('i18n')
+
+prefix = get_option('prefix')
+
+datadir = join_paths(prefix, get_option('datadir'))
+backgrounddir = join_paths(datadir, 'backgrounds', 'astolfos')
+
+subdir('backgrounds')
